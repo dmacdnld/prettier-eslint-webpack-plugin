@@ -1,17 +1,18 @@
 {
-  "name": "prettier-eslint-webpack-plugin",
-  "version": "0.13.37",
-  "description": "Webpack plugin that formats your JavaScript using prettier followed by eslint --fix",
+  "name": "prettier-eslint-plugin",
+  "version": "1.0.0",
+  "description": "Fork of prettier-eslint-webpack-plugin",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"
   },
-  "author": "Daniël Terwiel",
+  "author": "Daniel MacDonald",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-standard": "^7.1.0",
+    "eslint-config-standard": "^10.0.0",
     "fs-readfile-promise": "^3.0.0",
     "fs-writefile-promise": "^2.0.0",
+    "multimatch": "^2.1.0",
     "prettier-eslint": "^4.4.0"
   },
   "devDependencies": {
@@ -19,12 +20,17 @@
     "babel-polyfill": "^6.23.0",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-react": "^6.23.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jest": "^19.0.1",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.2.0",
     "jest": "^19.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/danielterwiel/prettier-eslint-webpack-plugin"
+    "url": "https://github.com/dmacdnld/prettier-eslint-webpack-plugin.git"
   },
   "jest": {
     "modulePathIgnorePatterns": [

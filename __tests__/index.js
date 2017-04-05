@@ -46,26 +46,3 @@ describe('PrettierEslintPlugin', () => {
     expect(plugin.prettierPath).toBe('/prettier/path/')
   })
 })
-
-describe('0.0.1 backwards compatibility', () => {
-  it('is backwards compatible with 0.0.1', () => {
-    const plugin = new PluginFile.PrettierEslintPlugin({
-      config: {
-        parserOptions: {
-          ecmaVersion: 7
-        },
-        rules: {
-          semi: ['error', 'never']
-        }
-      }
-    })
-    expect(plugin.eslintConfig).toEqual({
-      parserOptions: {
-        ecmaVersion: 7
-      },
-      rules: {
-        semi: ['error', 'never']
-      }
-    })
-  })
-})
