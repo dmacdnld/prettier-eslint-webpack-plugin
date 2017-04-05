@@ -6,7 +6,7 @@ Webpack 2.* plugin for [prettier-eslint](https://github.com/kentcdodds/prettier-
 
 ## Installation
 ```
-yarn add prettier-eslint-webpack-plugin --dev
+yarn add prettier-eslint-plugin --dev
 ```
 
 ### Options
@@ -88,6 +88,7 @@ Welcome
 * Add Flow support
 
 ### Inspiration
+* [prettier-eslint-webpack-plugin](https://github.com/danielterwiel/prettier-eslint-webpack-plugin)
 * [prettier-eslint](https://github.com/kentcdodds/prettier-eslint)
 * [prettier-webpack-plugin](https://github.com/hawkins/prettier-webpack-plugin)
 * [eslint-config-standard](https://github.com/feross/eslint-config-standard)
