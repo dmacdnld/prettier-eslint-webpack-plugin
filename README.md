@@ -1,4 +1,6 @@
-# Prettier Eslint Webpack Plugin
+# Prettier Eslint Plugin
+
+This is a fork of [prettier-eslint-webpack-plugin](https://github.com/danielterwiel/prettier-eslint-webpack-plugin) by [Daniël Terwiel](https://github.com/danielterwiel)
 
 Webpack 2.* plugin for [prettier-eslint](https://github.com/kentcdodds/prettier-eslint)
 
